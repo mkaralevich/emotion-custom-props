@@ -31,7 +31,7 @@ export const STYLES_THEME = css`
 		--s-md: var(--s-4);
 		--s-lg: var(--s-10);
 
-		@media (${bp.sm}) {
+		@media ${bp.sm} {
 			--s-sm: var(--s-2);
 			--s-md: var(--s-3);
 			--s-lg: var(--s-8);
@@ -48,12 +48,12 @@ export const STYLES_THEME = css`
 		--fs-desc: 0.875rem;
 		--fs-entry: 1.15rem;
 
-		@media (${bp.lg}) {
+		@media ${bp.lg} {
 			--fs-default: 1rem;
 			--fs-heading: 0.875rem;
 			--fs-lead: 1.85rem;
 		}
-		@media (${bp.sm}) {
+		@media ${bp.sm} {
 			--fs-default: 1rem;
 			--fs-heading: 0.85rem;
 			--fs-lead: 1.25rem;
@@ -80,7 +80,7 @@ export const STYLES_THEME = css`
 		--w-p: 35rem;
 		--w-lead: 50rem;
 
-		@media (${bp.sm}) {
+		@media ${bp.sm} {
 			--w-p: auto;
 			--w-lead: auto;
 		}
@@ -89,39 +89,39 @@ export const STYLES_THEME = css`
 	}
 
 	/* PROJECT THEMES */
-	.black {
+	.theme_black {
 		--c-bg: black;
 		--c-text: white;
 		--c-tinted: rgba(255 255 255 / 48%);
 	}
-	.aliceblue {
+	.theme_aliceblue {
 		--c-bg: aliceblue;
 	}
-	.white {
+	.theme_white {
 		--c-bg: white;
 	}
-	.grey {
+	.theme_grey {
 		--c-bg: grey;
 		--c-text: white;
 		--c-tinted: rgba(255 255 255 / 56%);
 	}
-	.lightslategray {
+	.theme_lightslategray {
 		--c-bg: lightslategray;
 		--c-text: white;
 		--c-tinted: rgba(255 255 255 / 56%);
 	}
-	.dimgray {
+	.theme_dimgray {
 		--c-bg: dimgray;
 		--c-text: white;
 		--c-tinted: rgba(255 255 255 / 56%);
 	}
-	.lightyellow {
+	.theme_lightyellow {
 		--c-bg: lightyellow;
 	}
-	.antiquewhite {
+	.theme_antiquewhite {
 		--c-bg: antiquewhite;
 	}
-	.whitesmoke {
+	.theme_whitesmoke {
 		--c-bg: whitesmoke;
 	}
 `;

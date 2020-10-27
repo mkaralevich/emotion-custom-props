@@ -3,10 +3,10 @@ import { css } from "@emotion/core";
 /* Breakpoints */
 export const bp = [, 24, 52, 64, 80];
 
-bp.xsm = `max-width: ${bp[1]}em`;
-bp.sm = `max-width: ${bp[2]}em`;
-bp.md = `max-width: ${bp[3]}em`;
-bp.lg = `max-width: ${bp[4]}em`;
+bp.xsm = `(max-width: ${bp[1]}em)`;
+bp.sm = `(max-width: ${bp[2]}em)`;
+bp.md = `(max-width: ${bp[3]}em)`;
+bp.lg = `(max-width: ${bp[4]}em)`;
 
 /* Typography */
 export const text = {
