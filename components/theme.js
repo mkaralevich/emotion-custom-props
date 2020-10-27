@@ -89,39 +89,43 @@ export const STYLES_THEME = css`
 	}
 
 	/* PROJECT THEMES */
-	.theme_black {
+	.THEME_TEST {
+		--c-tinted: blue;
+	}
+
+	.THEME_BLACK {
 		--c-bg: black;
 		--c-text: white;
 		--c-tinted: rgba(255 255 255 / 48%);
 	}
-	.theme_aliceblue {
+	.THEME_ALICEBLUE {
 		--c-bg: aliceblue;
 	}
-	.theme_white {
+	.THEME_WHITE {
 		--c-bg: white;
 	}
-	.theme_grey {
+	.THEME_GREY {
 		--c-bg: grey;
 		--c-text: white;
 		--c-tinted: rgba(255 255 255 / 56%);
 	}
-	.theme_lightslategray {
+	.THEME_LIGHTSLATEGRAY {
 		--c-bg: lightslategray;
 		--c-text: white;
 		--c-tinted: rgba(255 255 255 / 56%);
 	}
-	.theme_dimgray {
+	.THEME_DIMGRAY {
 		--c-bg: dimgray;
 		--c-text: white;
 		--c-tinted: rgba(255 255 255 / 56%);
 	}
-	.theme_lightyellow {
+	.THEME_LIGHTYELLOW {
 		--c-bg: lightyellow;
 	}
-	.theme_antiquewhite {
+	.THEME_ANTIQUEWHITE {
 		--c-bg: antiquewhite;
 	}
-	.theme_whitesmoke {
+	.THEME_WHITESMOKE {
 		--c-bg: whitesmoke;
 	}
 `;

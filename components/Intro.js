@@ -10,5 +10,9 @@ const s_root = css`
 `;
 
 export default function Intro() {
-	return <main css={s_root}>hello</main>;
+	return (
+		<div className="THEME_TEST">
+			<main css={s_root}>hello</main>
+		</div>
+	);
 }
