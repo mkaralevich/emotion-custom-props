@@ -4,6 +4,7 @@ import * as C from "./common";
 
 const s_root = css`
 	color: var(--c-tinted);
+	height: 100vh;
 	${C.text.lead}
 	${C.box.center}
 `;
